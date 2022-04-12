@@ -38,15 +38,11 @@ const getLocation = () => {
             })
         })
     } else {
-        console.log('Geolocation is not supported by this browser')
+
+        loader.textContent = 'Geolocation is not supported by this browser'
     }
 }
 
 
 getLocation()
-
-
-// console.log('cc', locationCountry)
-
-// console.log(locationCountry)
 
